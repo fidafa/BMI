@@ -1,0 +1,128 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital@1&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    /* background-image: url(./image/purple-pink-watercolor-texture-background_1083-169.avif); */
+   background-color:lightblue ;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    min-width: 400px;
+    background: #fafafa;
+    border-radius: 38px;
+    height: 120%;
+    width: 120%;
+    left: -5%;
+    top: -5%;
+    background-color:lightblue;
+    box-shadow: 0px 0px 160px -31px;
+    border-radius: 40px;
+    z-index: -1;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    padding: 30px 0;
+    margin-left: 100px;
+
+}
+
+.content {
+    padding: 0 40px;
+}
+
+.input {
+    padding: 5px 0;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#height {
+    background-color: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 8px 20px;
+    
+}
+
+#weight {
+    background-color: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 8px 20px;
+    
+
+
+}
+
+ #calculate {
+    margin-left: 100px;
+    border-radius: 12px;
+    padding: 10px 0px;
+    color: #fff;
+    background-color: #0a0b0c;
+    font-size: 20px;
+    width: 40%;
+    outline: none;
+    border: none;
+    text-align: center;
+   
+}
+ #calculate:hover{
+    background: #02203c;
+}
+
+.result {
+    padding: 15px;
+    flex-direction: column;
+}
+.result p{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:rgb(11, 10, 10);
+    text-align: center;
+    
+}
+.result #result{
+    font-weight: 900;
+    font-size: 35px;
+    color:#0a0b0c;
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+    margin-left: 160px;
+}
+
+
+#comment {
+    color: red;
+    font-weight: 800;
+
+}
+
+.gender{
+    margin-left: 80px;
+    
+
+}
+
